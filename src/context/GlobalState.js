@@ -5,8 +5,6 @@ import AppReducer from './AppReducer'
 //Create the initial state
 const initialState = {
     transactions : [
-        { id: 1, description: "Income 1", transactionAmount: 500},
-        { id: 2, description: "Expense 1", transactionAmount: -500},
     ]
 }
 
