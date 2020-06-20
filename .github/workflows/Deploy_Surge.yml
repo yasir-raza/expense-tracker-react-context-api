@@ -39,5 +39,5 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build expense-tracker-yasir.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build expense-tracker-yasir-raza.surge.sh --token ${{ secrets.SURGE_TOKEN }}
 
