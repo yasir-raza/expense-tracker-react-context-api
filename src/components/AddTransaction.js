@@ -8,7 +8,7 @@ export const AddTransaction = () => {
     const { addTransaction } = useContext(GlobalContext);
     const onSubmit = e => {
         e.preventDefault();
-        if(description !== undefined && description.length > 0 && transactionAmount !== undefined && transactionAmount.length > 0){
+        if(description !== undefined  && transactionAmount !== undefined){
             
             const newTransaction = {
                 id : Math.floor(Math.random() * 100000000),
